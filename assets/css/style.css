@@ -52,7 +52,7 @@ header nav ul li a {
 
 /* Picture */ 
 .picture {
-    height: 850px;
+    height: 450px;
     width: 100%;
     background-image: url("../images/random.jpg");
     background-size: cover;
