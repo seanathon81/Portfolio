@@ -99,7 +99,7 @@ header nav ul li a {
 }
 
 .worker {
-    flex: 2;
+    flex: 1;
     padding: 35px;
     margin: 10px;
     text-align: center;
@@ -110,25 +110,24 @@ header nav ul li a {
 }
 
 .marketing {
-    flex: 2;
+    flex: 1;
     padding: 5px;
     margin: 10px; 
-    flex-grow: 2,
 }
 
 .marketing:hover {
-    flex-grow: 4;
+    transform: scale(1.3);
 }
 
 .runbuddy {
-    flex: 2;
+    flex: 1;
     padding: 5px;
     margin: 10px;
-    flex-grow: 2;
+    
 }
 
 .runbuddy:hover {
-    flex-grow: 4;
+    transform: scale(1.3);
 }
 
 /* Contact */
