@@ -16,6 +16,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 30px;
 } 
 
 header h1 {
@@ -52,7 +53,7 @@ header nav ul li a {
 
 /* Picture */ 
 .picture {
-    height: 450px;
+    height: 550px;
     width: 100%;
     background-image: url("../images/random.jpg");
     background-size: cover;
@@ -67,6 +68,7 @@ header nav ul li a {
     flex-wrap: wrap;
     background-color: slategray;
     color: whitesmoke;
+    margin-top: 30px;
 }
  
 .me {
@@ -96,6 +98,7 @@ header nav ul li a {
     background-color: slategray;
     color: whitesmoke;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .worker {
@@ -111,7 +114,7 @@ header nav ul li a {
 
 .marketing {
     flex: 1;
-    padding: 5px;
+    padding: 12px;
     margin: 10px; 
 }
 
@@ -121,7 +124,7 @@ header nav ul li a {
 
 .runbuddy {
     flex: 1;
-    padding: 5px;
+    padding: 12px;
     margin: 10px;
     
 }
@@ -137,6 +140,7 @@ header nav ul li a {
     color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
          
 }
     
@@ -162,7 +166,30 @@ header nav ul li a {
     font-size: 1.55vw;
     padding: 35px;
     margin: 10px;
+    text-decoration: none;
 }
 
+/* footer */
+
+.end {
+    background-color: slategray;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+}
+
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 575px) {
+}
 
 
