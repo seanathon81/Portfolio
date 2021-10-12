@@ -1,0 +1,159 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* header navigation */
+header {
+    padding: 20px 35px;
+    background-color: slategray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: whitesmoke;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+header a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+
+header nav ul li a {
+    padding: 25px 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Picture */ 
+.picture {
+    height: 850px;
+    width: 100%;
+    background-image: url("../images/random.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* About Me */
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: slategray;
+    color: whitesmoke;
+}
+ 
+.me {
+    flex: 1;
+    padding: 35px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-right: 2px solid whitesmoke;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+}
+   
+.me2 {
+    flex: 2;
+    padding: 35px;
+    margin: 10px;
+    text-align: left;
+    font-size: 22px;
+    
+  
+}
+
+/* Work */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: slategray;
+    color: whitesmoke;
+}
+
+.worker {
+    flex: 2;
+    padding: 35px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-right: 2px solid whitesmoke;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+   
+}
+
+.marketing {
+    flex: 3;
+    padding: 35px;
+    margin: 10px;
+}
+
+.runbuddy {
+    flex: 3;
+    padding: 35px;
+    margin: 10px;
+}
+
+/* Contact */
+       
+.contact {
+    background-color: gray;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+      
+}
+    
+.title {
+    flex: 4;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+    border-right: 2px solid whitesmoke;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.address {
+    flex: 3;
+    padding: 35px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.resume {
+    flex: 3;
+    font-size: 32px;
+    padding: 35px;
+    margin: 10px;
+}
+
+
+
