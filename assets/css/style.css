@@ -77,7 +77,6 @@ header nav ul li a {
     font-size: 30px;
     border-right: 2px solid whitesmoke;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-
 }
    
 .me2 {
@@ -96,6 +95,7 @@ header nav ul li a {
     flex-wrap: wrap;
     background-color: slategray;
     color: whitesmoke;
+    justify-content: center;
 }
 
 .worker {
@@ -110,15 +110,25 @@ header nav ul li a {
 }
 
 .marketing {
-    flex: 3;
-    padding: 35px;
-    margin: 10px;
+    flex: 2;
+    padding: 5px;
+    margin: 10px; 
+    flex-grow: 2,
+}
+
+.marketing:hover {
+    flex-grow: 4;
 }
 
 .runbuddy {
-    flex: 3;
-    padding: 35px;
+    flex: 2;
+    padding: 5px;
     margin: 10px;
+    flex-grow: 2;
+}
+
+.runbuddy:hover {
+    flex-grow: 4;
 }
 
 /* Contact */
@@ -128,7 +138,7 @@ header nav ul li a {
     color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
-      
+         
 }
     
 .title {
@@ -150,7 +160,7 @@ header nav ul li a {
 
 .resume {
     flex: 3;
-    font-size: 32px;
+    font-size: 1.55vw;
     padding: 35px;
     margin: 10px;
 }
